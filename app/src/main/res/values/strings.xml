@@ -2,4 +2,7 @@
     <string name="app_name">My Application</string>
     <string name="Msg1">Here, I am the text message 1</string>
     <string name="Msg2">Here, I am the text message 2</string>
+    <string name="name">Upulka Samidi Kularatne</string>
+    <string name="Tips">Part 2 - Tips</string>
+    <string name="strings">Using String resource files according to the tutorial 2</string>
 </resources>

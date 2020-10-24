@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         //type logi and press tab key
         Log.i(TAG, "onCreate: ");
+
     }
 
     
@@ -50,5 +51,22 @@ public class MainActivity extends AppCompatActivity {
     protected void onRestart() {
         super.onRestart();
         Log.i(TAG, "onRestart: ");
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.i(TAG, "onPause: ");
+
+        //the below method can be written in any method
+        /*
+        textView2 = findViewById(R.id.txtView2);
+        textView2.setText(R.string.Msg2);
+        //textView2.setText(R.string.Msg2);//this is what you typed in the previous line. when running the app it turns into the sentence given to that string
+
+        //type logi and press tab key
+        Log.i(TAG, "onCreate: ");
+
+         */
     }
 }
